@@ -1,0 +1,22 @@
+{
+    "name": "ice/dbal-test",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "scripts-descriptions": { 
+        "Ice\\DbalTest\\": "src/"
+    },
+    "authors": [
+        {
+            "name": "aidar",
+            "email": "aidarzssv@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/dbal": "^3.5",
+        "doctrine/orm": "^3.3",
+        "symfony/cache": "^6.4"
+    }
+}
